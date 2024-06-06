@@ -1,5 +1,5 @@
-# CIS11CouseProject
-Final Project for CIS11, Test Score Calculator
+# Test Score Calculator
+Group project created for CIS11 course.
 
 ## Purpose of this project
 LC-3 program that displays the minimum, maximum and average grade of 5 test
