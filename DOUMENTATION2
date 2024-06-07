@@ -1,0 +1,22 @@
+
+We tried to implement the program in a way where the 5 inputs are handled through a loop mimicking a for loop in C/C++. 
+However, due to time constraints we were only able to successfully display the input message five times and store scores in array.
+
+Programs biggest limitation is it's incabability to input a 3 digit value of 100.
+*
+INPUT_LOOP
+    JSR GET_GRADE
+    STR R3, R6, #0
+    JSR GET_LETTER
+    JSR POP
+    LD R0, NEWLINE
+    OUT
+    ADD R6, R6, #1
+    ADD R1, R1, #1
+    LD R2, NUM_TESTS
+    NOT R2, R2
+    ADD R2, R2, #1
+    ADD R2, R1, R2
+    BRn INPUT_LOO
+*
+Program is able to input 5 scores in a loop, however we only get an infinite loop. 
