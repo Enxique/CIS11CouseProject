@@ -10,3 +10,4 @@ The program was designed for students or anyone in the education field to help c
 
 #### How to get started
 Assemble the .asm file providede into your LC-3 editor. Open up your LC-3 simulator. Once launched, open up the .obj file that was created from the .asm file. Run the program and follow the prompts displayed in the console. 
+Be advised only 2 digits per line. 
